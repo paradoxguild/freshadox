@@ -42,7 +42,7 @@ class HTMXComponent extends HTMLElement {
 
 class NavComponent extends HTMXComponent {
   connectedCallback() {
-    this.setAttribute('template', '/freshadox/components/nav.html');
+    this.setAttribute('template', '../components/nav.html');
     this.setAttribute('x-data', `{ page: '${this.getAttribute('page')}' }`);
     super.connectedCallback();
   }
