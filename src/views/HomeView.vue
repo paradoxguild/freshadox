@@ -1,4 +1,4 @@
-<script setup lang="ts">
+<script setup>
   import ParadoxNav from '@/components/ParadoxNav.vue'
 </script>
 
